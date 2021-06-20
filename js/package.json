@@ -1,0 +1,21 @@
+{
+  "name": "power-config",
+  "version": "1.0.0",
+  "description": "JS linting and auto-formatting config",
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "lint": "npm run lint:es || exit 0",
+    "lint:es": "eslint . --cache --fix --ext .js,.json || exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
